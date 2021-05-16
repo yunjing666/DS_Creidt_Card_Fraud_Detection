@@ -1,0 +1,16 @@
+---
+title: "Credit Card Fraud Detection"
+output: html_notebook
+---
+
+
+
+### 1. Importing the Datasets
+
+```{r}
+library(ranger)
+library(caret)
+library(data.table)
+creditcard_data <- read.csv("./data/creditcard.csv")
+```
+
